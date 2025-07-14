@@ -37,7 +37,8 @@ A **modern, responsive, and beautifully animated plant shop landing page** built
 
 ```
 plant-landing-page/
-├── index.html         
+├── index.html
+├── script.js      
 ├── imags/             
 ├── README.md          
 ```
@@ -89,8 +90,8 @@ This project is licensed under the [MIT License](LICENSE). Free to use and modif
 ## 🧑‍💻 Author
 
 **Mahdi Jahed**
-[GitHub Profile »](https://github.com/MahdiJDS)
-
+- [GitHub Profile »](https://github.com/MahdiJDS)
+- Email: mahdijahed56@gmail.com  
 ---
 
 
