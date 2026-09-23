@@ -2,6 +2,8 @@
 const navMenu = document.getElementById('nav-menu');
 const navLink = document.querySelectorAll('.nav-link');
 const hamburger = document.getElementById('hamburger');
+const current_year = document.getElementById('current-year')
+
 
 hamburger.addEventListener('click', () => {
     navMenu.classList.toggle('left-[0]');
@@ -107,6 +109,6 @@ const activeLink = () => {
 window.addEventListener('scroll', activeLink)
 
 
-
+current_year.textContent = new Date().getFullYear(); 
 
 
