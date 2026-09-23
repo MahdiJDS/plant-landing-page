@@ -89,9 +89,15 @@ This project is licensed under the [MIT License](LICENSE). Free to use and modif
 
 ## 🧑‍💻 Author
 
-**Mahdi Jahed**
-- [GitHub Profile »](https://github.com/MahdiJDS)
-- Email: mahdijahed56@gmail.com  
+I enjoy transforming complex ideas into intuitive user experiences while writing clean, maintainable, and reusable code.
+
+### 🌐 Portfolio
+
+[mahdijds.vercel.app](https://mahdijds.vercel.app/)
+
+### 💻 GitHub
+
+[github.com/MahdiJDS](https://github.com/MahdiJDS)
 ---
 
 
