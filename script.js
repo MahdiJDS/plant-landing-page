@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const header = () => {
     const borderHeader = document.getElementById('navbar');
-    console.log(borderHeader);
 
     if (this.scrollY >= 150) {
         borderHeader.classList.add('border-b', 'border-yellow-300', 'duration-300', 'transform', 'unset')
