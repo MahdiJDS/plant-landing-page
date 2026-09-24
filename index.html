@@ -53,7 +53,6 @@
             animation: apper both;
             animation-timeline: view(70% 0%);
         }
-
     </style>
 
     <style type="text/tailwindcss">
@@ -533,15 +532,19 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos perferendis dolorem velit!
                 </h3>
 
-                <div class="flex flex-col md:flex-row gap-1">
-                    <input type="email" placeholder="Your Email"
-                        class="w-full px-5 py-3 text-white-900 rounded-md shadow-2xl bg-green-800">
-                    <button
-                        class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-70 duration-300 cursor-pointer hover:-translate-y-1">
-                        <span>Send</span>
-                        <i class="ri-send-plane-2-fill"></i>
-                    </button>
-                </div>
+                <form>
+                    <div class="flex flex-col md:flex-row gap-2">
+                        <input type="email" name="email" placeholder="Your Email"
+                            pattern="^[a-z0-9._-]+@[a-z0-9-]+\.[a-z]{2,}$" required
+                            class="w-full px-5 py-3 text-white rounded-md shadow-2xl bg-green-800">
+
+                        <button type="submit"
+                            class="flex items-center justify-center gap-2 bg-green-950 px-5 py-3 rounded-md hover:opacity-70 duration-300 cursor-pointer hover:-translate-y-1">
+                            <span>Send</span>
+                            <i class="ri-send-plane-2-fill"></i>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
 
@@ -590,7 +593,7 @@
             <div class="flex flex-col items-center lg:items-start">
                 <h2 class="mb-5 font-bold text-xl">Contact</h2>
                 <div class="flex flex-col gap-1">
-                   <a href="tel:+989231702132">
+                    <a href="tel:+989231702132">
                         +98 923 170 2132
                     </a>
 
@@ -602,7 +605,8 @@
         </div>
 
         <div class="container mx-auto">
-            <p class="text-center mt-10 opacity-50">Copyright &copy; <span id="current-year"></span> Mahdi Jahed. All rights reserved.</p>
+            <p class="text-center mt-10 opacity-50">Copyright &copy; <span id="current-year"></span> Mahdi Jahed. All
+                rights reserved.</p>
         </div>
     </footer>
 
